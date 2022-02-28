@@ -29,7 +29,7 @@ namespace ParallelExtensionsExtras.Extensions.APM
             new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None, BUFFER_SIZE, true);
 
         /// <summary>
-        /// Opens a binary file for asynchronosu operation, reads the contents of the file into a byte array, and then closes the file.
+        /// Opens a binary file for asynchronous operation, reads the contents of the file into a byte array, and then closes the file.
         /// </summary>
         /// <param name="path">The path to the file to be read.</param>
         /// <returns>A task that will contain the contents of the file.</returns>
@@ -79,7 +79,7 @@ namespace ParallelExtensionsExtras.Extensions.APM
         }
 
         /// <summary>
-        /// Opens a text file for asynchronosu operation, reads the contents of the file into a string, and then closes the file.
+        /// Opens a text file for asynchronous operation, reads the contents of the file into a string, and then closes the file.
         /// </summary>
         /// <param name="path">The path to the file to be read.</param>
         /// <returns>A task that will contain the contents of the file.</returns>
@@ -107,9 +107,10 @@ namespace ParallelExtensionsExtras.Extensions.APM
         }
 
         /// <summary>
-        /// Opens a text file for asynchronosu operation, writes a string into the file, and then closes the file.
+        /// Opens a text file for asynchronous operation, writes a string into the file, and then closes the file.
         /// </summary>
         /// <param name="path">The path to the file to be written.</param>
+        /// <param name="contents"></param>
         /// <returns>A task that will signal the completion of the operation.</returns>
         public static Task WriteAllText(string path, string contents)
         {

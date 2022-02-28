@@ -36,9 +36,10 @@
 		<Company>Cuplex Org</Company>
 		<Copyright>Microsoft.com</Copyright>
 		<RepositoryType>git</RepositoryType>
-		<PackageTags>parallel;Multithread</PackageTags>
+		<PackageTags>Parallel;Multithread;Async</PackageTags>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-		<AnalysisLevel>5.0</AnalysisLevel>
+		<AnalysisLevel>latest-minimum</AnalysisLevel>
+		<EnableNETAnalyzers>False</EnableNETAnalyzers>
 	</PropertyGroup>
 
 	<ItemGroup>
